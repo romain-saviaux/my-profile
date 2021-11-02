@@ -1,0 +1,136 @@
+body {
+	font-family: Arial;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #effefe;
+}
+
+h1{
+		fontweight: bolder;
+		font-size:  48px;
+		color:  #FFFFFF;
+}
+h2{
+	font-weight: bolder;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+img {
+		border-radius: 150px;
+		width:  170px;
+		height:  250px;
+}
+
+ul li{
+		list-style: none;
+}
+
+ul li a {
+	text-decoration: none;
+	font-size:  25px;
+	line-height: 1.8;
+	color: #FFFFFF;
+}
+
+ul li a:hover {
+	color: black;
+} 
+
+.container {
+	width : 800px;
+	margin:  40px auto;
+
+}
+
+.card-white {
+	background: #26619c;
+	margin: 24px 0;
+	padding : 32px;
+	border-radius:  10px;
+	box-shadow: 6px 16px 24px rgba(0,0,0,0.5);
+	border: 2px solid #5b5b5b;
+}
+
+.btn-grey {
+	background-color: #FFFFFF ;
+	border: 2px solid #5b5b5b;
+	padding : 14px 18px;
+	color : #5b5b5b;
+	text-decoration: none;
+	border-radius:  10px;
+}
+
+.btn-grey:hover {
+	background-color: #5b5b5b ;
+	color : white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+#tuto {
+	width : 600px;
+	margin:  40px auto;
+}
+#dj {
+	width : 600px;
+	margin:  40px auto;
+}
+#gaming {
+	width : 600px;
+	margin:  40px auto;
+}
+#contact {
+	width : 700px;
+	margin:  40px auto;
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 600px;
+	}
+	#tuto {
+		width: 500px	
+	}
+	#dj {
+		width: 500px	
+	}
+	#gaming {
+		width: 500px	
+	}
+	#contact {
+		width: 500px	
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+	#tuto {
+		width: 300px	
+	}
+	#dj {
+		width: 300px	
+	}
+	#gaming {
+		width: 300px	
+	}
+	#contact {
+		width: 300px	
+	}
+}
