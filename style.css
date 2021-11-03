@@ -1,8 +1,11 @@
 body {
 	font-family: Arial;
 	color: #FFFFFF;
-	text-align: center;
 	background-color: #effefe;
+	background-image: url("https://info.ehl.edu/hubfs/web/img/ehl-campus-lausanne-entrance.jpg");
+	background-repeat:  no-repeat;
+	background-size: cover;
+	text-align: center;
 }
 
 h1{
